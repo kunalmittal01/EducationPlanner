@@ -1,0 +1,43 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* color-scheme: light dark; */
+  /* color: rgba(255, 255, 255, 0.87); */
+  /* background-color: #242424; */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (max-width: 626px){
+  .subject {
+    padding: 4px 5px;
+  }
+  .subject .subject-wrap{
+    gap: 10px;
+  }
+  .subject-wrap p {
+    font-size: 16px;
+  }
+}
+
+.dark {
+  background-color: #242424;
+}
+
+.dark .darkmode {
+  border: 1px solid gray;
+}
+
+.dark .darkmode span {
+  background-color: #ffffff;
+  transform: translateX(40px);
+}
+
+.dark h1 {
+  color: #ffffff;
+}
