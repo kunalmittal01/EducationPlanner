@@ -26,18 +26,18 @@
 }
 
 .dark {
-  background-color: #242424;
+  background-color: #242424 !important;
 }
 
 .dark .darkmode {
-  border: 1px solid gray;
+  border: 1px solid gray !important;
 }
 
 .dark .darkmode span {
-  background-color: #ffffff;
-  transform: translateX(40px);
+  background-color: #ffffff !important;
+  transform: translateX(40px) !important;
 }
 
 .dark h1 {
-  color: #ffffff;
+  color: #ffffff !important;
 }
